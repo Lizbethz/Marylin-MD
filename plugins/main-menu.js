@@ -1,4 +1,4 @@
-import { promises } from 'fs'
+deimport { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
@@ -33,7 +33,7 @@ const defaultMenu = {
 Holis *%name* soy satou (≧σ≦)
 
 ╭──〔  𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾  〕
-┃✧ Legna
+┃✧ Mariela
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
 %readmore
 ╭──〔  𝙸𝙽𝙵𝙾 》 𝚄𝚂𝙴𝚁  〕
@@ -43,7 +43,7 @@ Holis *%name* soy satou (≧σ≦)
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
 %readmore
 ╭──〔  𝙸𝙽𝙵𝙾 》 𝙱𝙾𝚃  〕
-┃✰ 🄱ᴏᴛ: SatouBot-MD
+┃✰ 🄱ᴏᴛ:MarylinBot-MD
 ┃✰ 🄼ᴏᴅᴏ: publico
 ┃✰ 🅃ɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴀ: %muptime
 ┃✰ 🅄sᴜᴀʀɪᴏs: %totalreg
