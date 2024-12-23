@@ -156,8 +156,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
 let urls = [
-"https://files.catbox.moe/vs8jca.mp4",
-"https://files.catbox.moe/vs8jca.mp4",
+"https://files.catbox.moe/0iw0dc.mp4",
+"https://files.catbox.moe/yxpqgu.mp4",
 ];
 let gifUrl = urls[Math.floor(Math.random() * urls.length)];
 await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
